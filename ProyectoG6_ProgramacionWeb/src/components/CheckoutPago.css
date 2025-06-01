@@ -1,0 +1,86 @@
+.pago-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.pago-content {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.metodo-pago {
+  flex: 2;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.metodo-pago h2 {
+  margin-bottom: 15px;
+}
+
+.logos-centradas {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.logos-centradas img {
+  height: 35px;
+}
+
+.qr-preview {
+  margin-bottom: 20px;
+}
+
+.qr-preview img {
+  width: 150px;
+  height: 150px;
+}
+
+.botones-metodo-centrados {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.btn-metodo {
+  padding: 10px 20px;
+  background-color: #ff5a3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-metodo:hover {
+  background-color: #e04a2d;
+}
+
+.resumen-compra {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.resumen-compra h2 {
+  margin-bottom: 15px;
+}
+
+.resumen-compra p {
+  margin: 6px 0;
+}

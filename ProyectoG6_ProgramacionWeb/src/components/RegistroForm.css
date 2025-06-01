@@ -1,0 +1,71 @@
+/* Estilos principales */
+.registro-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 250px); /* dejando espacio para header/footer */
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+}
+
+.registro-form-wrapper {
+  background: rgb(142, 191, 146);
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Encabezado */
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #2c3e50;
+}
+
+/* Formularios */
+div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #34495e;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #1ecc6a;
+  outline: none;
+}
+
+/* Botón */
+.boton-registro {
+    width: 100%;
+  padding: 12px;
+  background-color: #ffff;
+  color: #333;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;  
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+.boton-registro:hover {
+  background-color: #17b85f;
+  
+}
