@@ -1,4 +1,4 @@
-// MiCuenta.jsx
+
 import React from "react";
 
 import Header from "./Header";
@@ -7,9 +7,9 @@ import "./MiCuenta.css";
 
 const MiCuenta = () => {
   const handleLogout = () => {
-    // Aquí deberías limpiar tokens o datos del usuario según tu lógica de autenticación
-    localStorage.removeItem("token"); // ejemplo
-    window.location.href = "/login"; // redirigir al login
+   
+    localStorage.removeItem("token"); 
+    window.location.href = "/login"; 
   };
 
   return (
