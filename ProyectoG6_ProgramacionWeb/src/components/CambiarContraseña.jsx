@@ -10,7 +10,7 @@ const CambiarContraseña = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     alert(`Se ha enviado un enlace a: ${email}`);
-    // Aquí iría la lógica para enviar el enlace real.
+   
   };
 
   return (
